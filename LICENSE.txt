@@ -1,0 +1,14 @@
+Vorläufige Nutzungslizenz (nicht öffentlich veränderbar)
+
+Dieses Projekt befindet sich in der aktiven Entwicklung.
+
+Bis zur offiziellen Veröffentlichung unter einer Creative-Commons- oder Open-Source-Lizenz gelten folgende Regeln:
+
+1. **Nutzung erlaubt** – Du darfst das Tool ansehen und ausprobieren, insbesondere zu privaten, nicht-kommerziellen Zwecken.
+2. **Keine Weiterentwicklung** – Du darfst das Projekt oder Teile davon derzeit nicht verändern, remixen oder weiterveröffentlichen.
+3. **Keine kommerzielle Nutzung** – Die Nutzung in kommerziellen Kontexten (z. B. Verkauf, Produktintegration, bezahlter Service) ist untersagt.
+4. **Urheberangabe erforderlich** – Bei jeglicher Verwendung muss der Autor genannt werden.
+5. **Verbindliche Lizenz folgt** – Die finale Lizenz (z. B. CC BY-NC-SA 4.0) wird bei Projektabschluss veröffentlicht.
+
+Urheber: [Jennifer Zimmermann, Christina Papacek-Zimmermann]  
+Stand: Mai 2025
