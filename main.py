@@ -81,3 +81,68 @@ Pflegegeld wird gemäß §37 SGB XI an die pflegebedürftige Person ausgezahlt �
 Zusätzlich 131 €/Monat für anerkannte Unterstützungsleistungen (z. B. Haushaltshilfe, Betreuungsangebote). Keine Barauszahlung möglich.
 """)
 
+elif themenwahl == "Antragstellung & Zugang":
+    st.header("📬 Antragstellung & Zugang zu Leistungen")
+    st.markdown("""
+- **Pflegegrad beantragen:** Der Antrag erfolgt formlos bei der Pflegekasse (z. B. telefonisch oder schriftlich). Leistungen werden frühestens ab dem Antragsdatum gewährt.
+- **Begutachtung:** Ein Gutachter des Medizinischen Dienstes (gesetzlich) oder Medicproof (privat) prüft die Selbstständigkeit im häuslichen Umfeld.
+- **Pflegeberatung (§7a SGB XI):** Die Pflegekasse ist verpflichtet, innerhalb von zwei Wochen eine kostenfreie Pflegeberatung anzubieten.
+- **„Reha vor Pflege“ (§31 SGB XI):** Vor Leistungen aus der Pflegeversicherung ist ggf. ein Antrag auf medizinische oder berufliche Rehabilitation zu prüfen.
+    """)
+
+elif themenwahl == "Ansprechpartner & Zuständigkeit":
+    st.header("📞 Ansprechpartner & regionale Zuständigkeit (Bayern)")
+    st.markdown("""
+- **Pflegekasse:** Erste Anlaufstelle für Anträge, Beratung und Koordination.
+- **Pflegestützpunkte:** Bieten neutrale, trägerübergreifende Beratung – regional verfügbar.
+- **Bezirke in Bayern (§3 AVSG, §27b SGB XII):** Zuständig für Leistungen der Eingliederungshilfe und stationären Hilfe zur Pflege – vorausgesetzt, der Aufenthalt im Bezirk besteht seit mindestens zwei Monaten.
+- **Sozialamt:** Zuständig für ambulante Hilfe zur Pflege (z. B. Haushaltshilfe) bei geringem Einkommen.
+- **Wichtig:** Maßgeblich ist der tatsächliche Aufenthaltsort, nicht der Wohnsitz.
+    """)
+
+elif themenwahl == "Entlastung für An- und Zugehörige":
+    st.header("🤝 Entlastung & Unterstützung für An- und Zugehörige")
+    st.markdown("""
+- **Pflegekurse (§45 SGB XI):** Kostenlose Schulungen für pflegende Angehörige (vor Ort oder online).
+- **Verhinderungspflege (§39 SGB XI):** Bis zu 1.612 €/Jahr, wenn die Hauptpflegeperson z. B. wegen Krankheit verhindert ist.
+- **Kurzzeitpflege (§42 SGB XI):** Vorübergehende stationäre Pflege – bis zu 1.774 €/Jahr.
+- **Pflegezeit & Familienpflegezeit (PflegeZG):** Gesetzlich geregelte Freistellungsmöglichkeiten für berufstätige Angehörige.
+- **Entlastungsbetrag:** 131 €/Monat – zweckgebunden z. B. für Alltagsbegleitung oder Haushaltshilfe.
+    """)
+
+elif themenwahl == "Rechtliche Betreuung":
+    st.header("👤 Rechtliche Betreuung & Einwilligung")
+    st.markdown("""
+- **§1814 BGB:** Eine rechtliche Betreuung kann durch das Amtsgericht angeordnet werden, wenn eine Person ihre Angelegenheiten nicht mehr selbst regeln kann.
+- **§1825 BGB:** Einwilligungsvorbehalt möglich, z. B. bei finanzieller Gefährdung.
+- **Pflegeberatung & Leistungsanträge**: erfordern dann die Zustimmung des Betreuers (§7a SGB XI).
+- **Alternative:** Vorsorgevollmacht – sollte frühzeitig geregelt sein.
+    """)
+
+elif themenwahl == "Wohnraumanpassung & Hilfsmittel":
+    st.header("🏠 Wohnraumanpassung & Hilfsmittel")
+    st.markdown("""
+- **Wohnumfeldverbessernde Maßnahmen (§40 SGB XI):** Bis zu 4.000 € Zuschuss für Umbaumaßnahmen (z. B. barrierefreies Bad, Treppenlift).
+- **Hilfsmittel:** z. B. Pflegebett, Rollator, Notrufsysteme – ärztliche Verordnung erforderlich, Genehmigung durch Krankenkasse.
+- **Ziel:** Ermöglichung häuslicher Pflege und Sicherung der Selbstständigkeit.
+    """)
+
+elif themenwahl == "Teilhabe & Reha":
+    st.header("🧩 Teilhabe am Leben in der Gesellschaft")
+    st.markdown("""
+- **Ziel gemäß §1 SGB IX:** Selbstbestimmte Teilhabe trotz Pflegebedarf oder Behinderung.
+- **Rehabilitation vor Pflege (§31 SGB XI):** Vorrang der Reha-Maßnahmen prüfen.
+- **Eingliederungshilfe (§99 SGB IX):** Leistungen für Menschen mit (drohender) Behinderung – zuständig: Bezirke in Bayern.
+- **Teilhabeplan (§19 SGB IX):** Trägerübergreifende Koordination bei komplexem Hilfebedarf.
+    """)
+
+elif themenwahl == "Widerspruch & Klagewege":
+    st.header("⚖️ Widerspruch & rechtliche Durchsetzung")
+    st.markdown("""
+- **Widerspruch (§84 SGG):** Innerhalb von einem Monat schriftlich gegen einen ablehnenden Bescheid einlegen.
+- **Verpflichtungsklage (§54 SGG):** Wenn eine beantragte Leistung abgelehnt wird.
+- **Untätigkeitsklage (§88 SGG):** Wenn keine Entscheidung innerhalb von 3 Monaten erfolgt.
+- **Anfechtungsklage:** Gegen belastende Verwaltungsakte ohne Leistungsbezug.
+- **Vorläufige Leistungen (§39 SGB I):** Beantragbar, wenn z. B. ein zu niedriger Pflegegrad gewährt wurde, aber Widerspruch läuft.
+    """)
+
