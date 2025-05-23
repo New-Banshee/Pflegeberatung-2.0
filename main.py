@@ -1,9 +1,14 @@
 
 import streamlit as st
 
-st.set_page_config(page_title="PflegeNavigator 2.0", layout="wide")
-st.title("🧭 PflegeNavigator 2.0 – für An- und Zugehörige")
-st.markdown("Ein interaktives Informations- und Beratungswerkzeug auf Grundlage des §7a SGB XI und der Pflegeberatung in Bayern.")
+st.set_page_config(page_title="PflegeStart 2.0", layout="wide")
+st.title("🧭 PflegeStart 2.0 – für An- und Zugehörige")
+st.markdown("""Ein interaktives Informations- und Beratungswerkzeug auf Grundlage des §7a SGB XI und der Pflegeberatung in Bayern.**
+
+🧠 *Ein studentisches Projekt im Rahmen des berufsbegleitenden Studiengangs B.Sc. Pflegewissenschaft*  
+📚 *Themenschwerpunkt: Teilhabe- und Sozialrecht, Betreuungsrecht*  
+🔎 *Modul: Zertifikat zur Pflegeberatung nach §7a SGB XI*
+""")
 
 # Menü
 themenwahl = st.radio(
