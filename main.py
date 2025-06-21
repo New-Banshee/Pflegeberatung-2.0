@@ -1,11 +1,11 @@
 import streamlit as st
 
 st.set_page_config(page_title="PflegeStart 2.0", layout="wide")
-st.title("🧭 PflegeStart 2.0 – für An- und Zugehörige")
+st.title("🧭 PflegeStart 2.0 – Digitaler Begleiter rund um Pflegeberatung")
 
-st.markdown("""**Ein interaktives Informations- und Beratungswerkzeug auf Grundlage des §7a SGB XI und der Pflegeberatung in Bayern.**
+st.markdown("""**Ein interaktives Informations- und Beratungswerkzeug auf Grundlage des §7a SGB XI und der Pflegeberatung in Bayern für Betroffene, An- und Zugehörige und Interessierte.**
 
-🧠 *Ein studentisches Projekt im Rahmen des berufsbegleitenden Studiengangs B.Sc. Pflegewissenschaft an der Katholischen Universität Eichstätt-Ingolstadt*  
+🧠 *Studentisches Projekt im Rahmen des berufsbegleitenden Studiengangs B.Sc. Pflegewissenschaft an der Katholischen Universität Eichstätt-Ingolstadt*  
 📚 *Themenschwerpunkt: Teilhabe- und Sozialrecht, Betreuungsrecht*  
 🔎 *Modul: Zertifikat zur Pflegeberatung nach §7a SGB XI*
 """)
@@ -33,10 +33,12 @@ if themenwahl == "Begriffsklärungen":
     st.header("📘 Begriffsklärungen")
     st.markdown("""
 **Pflegebedürftigkeit (§14 SGB XI):**  
-Eine Person gilt als pflegebedürftig, wenn sie aufgrund gesundheitlicher Beeinträchtigungen dauerhaft (mindestens sechs Monate) in ihrer Selbstständigkeit eingeschränkt ist und regelmäßig Hilfe benötigt.
+Pflegebedürftig ist eine Person, die wegen gesundheitlicher Beeinträchtigungen dauerhaft (mindestens sechs Monate) in ihrer Selbstständigkeit eingeschränkt ist und regelmäßig Hilfe benötigt.  
+Der Gesetzgeber sieht Pflegebedürftigkeit als grundsätzlich beeinflussbaren Zustand, der durch Maßnahmen wie Rehabilitation oder Pflegeberatung verbessert oder stabil gehalten werden kann (vgl. §18b SGB XI, §31 SGB XI).
 
 **Pflegegrad (§15 SGB XI):**  
 Die Einstufung erfolgt durch den Medizinischen Dienst (MD) oder Medicproof nach einem Begutachtungssystem mit sechs Modulen. Es gibt fünf Pflegegrade (1–5), je nach Schwere der Beeinträchtigung.
+Die Prüfung mündet in einem Gutachten für die Pflegekasse (§18, SGB XI).
 
 **Pflegefachpersonen:**  
 Examinierte Pflegekräfte mit dreijähriger Ausbildung und Staatsexamen. Dazu gehören z. B. Pflegefachfrau/-mann, Gesundheits- und Krankenpflegerin/-pfleger oder Altenpflegerin/-pfleger (PflBG §1).
@@ -73,7 +75,7 @@ elif themenwahl == "Leistungen nach Pflegegrad":
     st.subheader("📌 Erläuterung der Leistungen")
     st.markdown("""
 **Wer erhält die Leistungen?**  
-Pflegegeld wird gemäß §37 SGB XI an die pflegebedürftige Person ausgezahlt – nicht direkt an pflegende Angehörige. Es ist zweckgebunden für die häusliche Versorgung.
+Pflegegeld wird gemäß §37 SGB XI an die pflegebedürftige Person ausgezahlt – nicht direkt an pflegende An- und Zugehörige. Es ist zweckgebunden für die häusliche Versorgung.
 
 **Ambulant vs. stationär:**  
 - *Ambulant:* Leistungen erfolgen zu Hause – Pflegegeld, Sachleistungen oder Kombination möglich (§38 SGB XI).  
@@ -81,6 +83,11 @@ Pflegegeld wird gemäß §37 SGB XI an die pflegebedürftige Person ausgezahlt �
 
 **Entlastungsbetrag (§45b SGB XI):**  
 Zusätzlich 131 €/Monat für anerkannte Unterstützungsleistungen (z. B. Haushaltshilfe, Betreuungsangebote). Keine Barauszahlung möglich.
+
+**Unterscheidung der Leistungsarten (§36–38 SGB XI):**  
+- **Pflegesachleistung (§36):** Professionelle Pflegefachpersonen erbringen die Pflegeleistungen zu Hause. Die Pflegekasse bezahlt die Pflegeeinrichtung oder den ambulanten Pflegedienst direkt.  
+- **Pflegegeld (§37):** Geldleistung an die pflegebedürftige Person zur Organisation der Pflege, z. B. durch An- und Zugehörige oder private Pflegepersonen.  
+- **Kombinationsleistung (§38):** Kombination aus Pflegegeld und Sachleistung, wenn die Pflege teilweise selbst organisiert und teilweise durch professionelle Pflege erbracht wird.
 """)
 
 elif themenwahl == "Antragstellung & Zugang":
@@ -132,7 +139,8 @@ elif themenwahl == "Wohnraumanpassung & Hilfsmittel":
 elif themenwahl == "Teilhabe & Reha":
     st.header("🧩 Teilhabe am Leben in der Gesellschaft")
     st.markdown("""
-- **Ziel gemäß §1 SGB IX:** Selbstbestimmte Teilhabe trotz Pflegebedarf oder Behinderung.
+- **Ziel:** Selbstbestimmte Teilhabe trotz Pflegebedürftigkeit (SGB XI) oder Behinderung (SGB IX).
+            Dabei fördert die Pflegeversicherung gemäß §5 SGB XI (seit PSG II) gezielt auch Leistungen zur sozialen Teilhabe und Unterstützung im Alltag, um Pflegebedürftigen ein möglichst selbstbestimmtes Leben zu ermöglichen. 
 - **Rehabilitation vor Pflege (§31 SGB XI):** Vorrang der Reha-Maßnahmen prüfen.
 - **Eingliederungshilfe (§99 SGB IX):** Leistungen für Menschen mit (drohender) Behinderung – zuständig: Bezirke in Bayern.
 - **Teilhabeplan (§19 SGB IX):** Trägerübergreifende Koordination bei komplexem Hilfebedarf.
