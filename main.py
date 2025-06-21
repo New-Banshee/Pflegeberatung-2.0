@@ -10,6 +10,8 @@ st.markdown("""**Ein interaktives Informations- und Beratungswerkzeug auf Grundl
 🔎 *Modul: Zertifikat zur Pflegeberatung nach §7a SGB XI*
 """)
 
+st.warning("🔎 Dieses Tool dient der ersten Orientierung und ersetzt keine individuelle Pflegeberatung nach §7a SGB XI. Für persönliche Beratung wenden Sie sich bitte an Ihre Pflegekasse oder einen Pflegestützpunkt.")
+
 # Navigation
 themenwahl = st.radio(
     "🗂️ Bitte wählen Sie ein Thema:",
