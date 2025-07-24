@@ -3,11 +3,11 @@ import streamlit as st
 st.set_page_config(page_title="Pflege-FAQ", layout="wide")
 st.title("🧭 Pflege-FAQ – Orientierung rund um die Pflegeberatung")
 
-st.markdown("""**Ein interaktives Informations- und Beratungswerkzeug auf Grundlage des §7a SGB XI und der Pflegeberatung in Bayern für Betroffene, An- und Zugehörige und Interessierte.**
+st.markdown("""**Ein interaktives Informations- und Beratungswerkzeug auf Grundlage des §7a SGB XI und der Pflegeberatung in Bayern für Betroffene, An- und Zugehörige sowie Interessierte.**
 
 🧠 *Studentisches Projekt im Rahmen des berufsbegleitenden Studiengangs B.Sc. Pflegewissenschaft an der Katholischen Universität Eichstätt-Ingolstadt*  
-📚 *Themenschwerpunkt: Teilhabe- und Sozialrecht, Betreuungsrecht*  
 🔎 *Modul: Zertifikat zur Pflegeberatung nach §7a SGB XI*
+👤 *Erstellt von: Jennifer Zimmermann & Christina Papacek-Zimmermann im Sommersemester 2025*
 """)
 
 st.warning("🔎 Dieses Tool dient der ersten Orientierung und ersetzt keine individuelle Pflegeberatung nach §7a SGB XI. Für persönliche Beratung wenden Sie sich bitte an Ihre Pflegekasse oder einen Pflegestützpunkt.")
@@ -42,10 +42,14 @@ Die Einstufung erfolgt durch den Medizinischen Dienst (MD) oder Medicproof nach 
 Die Prüfung mündet in einem Gutachten für die Pflegekasse (§18, SGB XI).
 
 **Pflegefachpersonen:**  
-Examinierte Pflegekräfte mit dreijähriger Ausbildung und Staatsexamen. Dazu gehören z. B. Pflegefachfrau/-mann, Gesundheits- und Krankenpflegerin/-pfleger oder Altenpflegerin/-pfleger (PflBG §1).
+Examinierte Fachpersonen mit dreijähriger Ausbildung und Staatsexamen. Dazu gehören z. B. Pflegefachfrau/-mann, Gesundheits- und Krankenpflegerin/-pfleger oder Altenpflegerin/-pfleger (PflBG §1).
 
 **Angehörige & Zugehörige:**  
-Angehörige sind meist Familienmitglieder, Zugehörige können auch enge Bezugspersonen wie Nachbarn oder Freunde sein.
+*Angehörige* im rechtlichen Sinne sind in der Regel Familienmitglieder – z. B. Eltern, Kinder, Geschwister oder Ehepartner. Auch angeheiratete Verwandte zählen dazu (z. B. Schwiegertochter).  
+*Zugehörige* sind hingegen enge, nicht-verwandte Bezugspersonen wie enge Freunde, Nachbarn oder Lebensgefährtinnen und Lebensgefährten ohne formelle Beziehung.
+
+⚠️ **Rechtlich relevant:**  
+Bei bestimmten Leistungen wie der Verhinderungspflege oder Pflegezeit ist **der Verwandtschaftsgrad entscheidend** (§39 SGB XI, PflegeZG). Nicht alle Leistungen können durch Zugehörige in Anspruch genommen oder abgerechnet werden – auch wenn sie aktiv in die Pflege eingebunden sind. Maßgeblich sind hier gesetzliche Vorgaben.
 
 **Pflegekasse vs. Krankenkasse:**  
 Pflegekassen sind eigenständige Träger der Pflegeversicherung, organisiert unter dem Dach der Krankenkassen (§46 SGB XI).
