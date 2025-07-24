@@ -101,7 +101,7 @@ Pflegebedürftige Personen mit **mindestens Pflegegrad 2** und **Hauptwohnsitz i
 **Wer erhält die Leistungen?**  
 Pflegegeld wird gemäß §37 SGB XI an die pflegebedürftige Person ausgezahlt – nicht direkt an pflegende An- und Zugehörige. Es ist zweckgebunden für die häusliche Versorgung.
 
-**Ambulant vs. stationär:**  
+**Ambulant vs. stationär:** 
 - *Ambulant:* Leistungen erfolgen zu Hause – Pflegegeld, Sachleistungen oder Kombination möglich (§38 SGB XI).  
 - *Stationär:* Sachleistungen nach §43 SGB XI in einer Einrichtung. Eigenanteil nach §43c SGB XI fällt zusätzlich an.
 
@@ -111,7 +111,7 @@ Zusätzlich 131 €/Monat für anerkannte Unterstützungsleistungen (z. B. Hau
 📅 *Der genannte Betrag in Höhe von 131 € gilt laut Pflegeunterstützungs- und -entlastungsgesetz (PUEG) ab Mai 2025.*  
 🚫 Keine Barauszahlung möglich.
 
-**Unterscheidung der Leistungsarten (§36–38 SGB XI):**  
+**Unterscheidung der Leistungsarten (§36–38 SGB XI):** 
 - **Pflegesachleistung (§36):** Professionelle Pflegefachpersonen erbringen die Pflegeleistungen zu Hause. Die Pflegekasse bezahlt die Pflegeeinrichtung oder den ambulanten Pflegedienst direkt.  
 - **Pflegegeld (§37):** Geldleistung an die pflegebedürftige Person zur Organisation der Pflege, z. B. durch An- und Zugehörige oder private Pflegepersonen.  
 - **Kombinationsleistung (§38):** Kombination aus Pflegegeld und Sachleistung, wenn die Pflege teilweise selbst organisiert und teilweise durch professionelle Pflege erbracht wird.
