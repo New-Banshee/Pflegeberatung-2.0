@@ -121,16 +121,16 @@ Zusätzlich 131 €/Monat für anerkannte Unterstützungsleistungen (z. B. Hau
 elif themenwahl == "Antragstellung & Zugang":
     st.header("📬 Antragstellung & Zugang zu Leistungen")
     st.markdown("""
-**Pflegegrad beantragen**  
+**Pflegegrad :**  
 Der Antrag erfolgt formlos bei der Pflegekasse (z. B. telefonisch oder schriftlich). Leistungen werden frühestens ab dem Antragsdatum gewährt.
 
-**Begutachtung**  
+**Begutachtung:**  
 Ein Gutachter des Medizinischen Dienstes (gesetzlich Versicherte) oder von Medicproof (Privatversicherte) prüft die Selbstständigkeit im häuslichen Umfeld anhand gesetzlicher Kriterien.
 
-**Pflegeberatung (§7a SGB XI)**  
+**Pflegeberatung (§7a SGB XI):**  
 Die Pflegekasse ist verpflichtet, innerhalb von zwei Wochen nach Antragseingang eine kostenfreie, individuelle Pflegeberatung durch eine geschulte Fachkraft anzubieten.
 
-**„Reha vor Pflege“ (§31 SGB XI)**  
+**„Reha vor Pflege“ (§31 SGB XI):**  
 Vor der Gewährung von Leistungen aus der Pflegeversicherung ist zu prüfen, ob vorrangig medizinische oder berufliche Rehabilitationsmaßnahmen in Frage kommen.
     """)
 
@@ -138,19 +138,22 @@ Vor der Gewährung von Leistungen aus der Pflegeversicherung ist zu prüfen, ob 
 elif themenwahl == "Ansprechpartner & Zuständigkeit":
     st.header("📞 Ansprechpartner & regionale Zuständigkeit (Bayern)")
     st.markdown("""
-**Pflegekasse**  
+**Pflegekasse:**  
 Erste Anlaufstelle für Anträge, Beratung und Koordination rund um die Pflegeversicherung. Dort erfolgt auch die Antragstellung für Pflegegrade und Leistungen nach dem SGB XI.
 
-**Pflegestützpunkte**  
+**Pflegestützpunkte:**  
 Bieten neutrale, trägerübergreifende Beratung für Pflegebedürftige und Angehörige – auch zu regionalen Unterstützungsangeboten. In Bayern sind sie in vielen Landkreisen verfügbar.
 
-**Bezirke in Bayern (§3 AVSG, §27b SGB XII)**  
-Zuständig für Leistungen der Eingliederungshilfe sowie stationäre Hilfe zur Pflege. Voraussetzung: Der tatsächliche Aufenthalt im Bezirk besteht seit mindestens zwei Monaten.
+**Bezirke in Bayern (Landesrecht & §27b SGB XII):**  
+In Bayern sind die **Bezirke** zuständig für die **Hilfe zur Pflege nach dem SGB XII** – sowohl bei ambulanter, teilstationärer als auch stationärer Pflege.  
+Diese Leistung greift, wenn die Pflegeversicherung nicht ausreicht und das eigene Einkommen/Vermögen die Pflegekosten nicht deckt.  
+📍Die Zuständigkeit eines Bezirks beginnt, wenn der tatsächliche Aufenthalt dort seit mindestens zwei Monaten besteht (§27b SGB XII).  
+⚠️ Wichtig: Die Leistungen der **Pflegeversicherung** (SGB XI) werden weiterhin von der **Pflegekasse** erbracht – unabhängig vom Wohnort.
 
-**Sozialamt**  
+**Sozialamt:**  
 Verantwortlich für ambulante Hilfe zur Pflege (z. B. Haushaltshilfen), wenn Einkommen und Vermögen der pflegebedürftigen Person nicht ausreichen. Auch Ansprechpartner für ergänzende Sozialleistungen.
 
-**Wichtig**  
+**Wichtig:**  
 Maßgeblich für die Zuständigkeit ist der tatsächliche Aufenthaltsort der pflegebedürftigen Person – nicht der formale Wohnsitz.
     """)
 
