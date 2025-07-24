@@ -121,10 +121,14 @@ Zusätzlich 131 €/Monat für anerkannte Unterstützungsleistungen (z. B. Hau
 elif themenwahl == "Antragstellung & Zugang":
     st.header("📬 Antragstellung & Zugang zu Leistungen")
     st.markdown("""
-- **Pflegegrad beantragen:** Der Antrag erfolgt formlos bei der Pflegekasse (z. B. telefonisch oder schriftlich). Leistungen werden frühestens ab dem Antragsdatum gewährt.
-- **Begutachtung:** Ein Gutachter des Medizinischen Dienstes (gesetzlich) oder Medicproof (privat) prüft die Selbstständigkeit im häuslichen Umfeld.
-- **Pflegeberatung (§7a SGB XI):** Die Pflegekasse ist verpflichtet, innerhalb von zwei Wochen eine kostenfreie Pflegeberatung anzubieten.
-- **„Reha vor Pflege“ (§31 SGB XI):** Vor Leistungen aus der Pflegeversicherung ist ggf. ein Antrag auf medizinische oder berufliche Rehabilitation zu prüfen.
+- **Pflegegrad beantragen:**
+Der Antrag erfolgt formlos bei der Pflegekasse (z. B. telefonisch oder schriftlich). Leistungen werden frühestens ab dem Antragsdatum gewährt.
+- **Begutachtung:** 
+Ein Gutachter des Medizinischen Dienstes (gesetzlich) oder Medicproof (privat) prüft die Selbstständigkeit im häuslichen Umfeld.
+- **Pflegeberatung (§7a SGB XI):** 
+Die Pflegekasse ist verpflichtet, innerhalb von zwei Wochen eine kostenfreie Pflegeberatung anzubieten.
+- **„Reha vor Pflege“ (§31 SGB XI):** 
+Vor Leistungen aus der Pflegeversicherung ist ggf. ein Antrag auf medizinische oder berufliche Rehabilitation zu prüfen.
     """)
 
 elif themenwahl == "Ansprechpartner & Zuständigkeit":
