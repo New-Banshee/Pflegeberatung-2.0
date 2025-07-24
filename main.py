@@ -82,6 +82,19 @@ elif themenwahl == "Leistungen nach Pflegegrad":
     st.markdown(f"💶 **Pflegegeld:** {geld}  🧾 **Pflegesachleistung:** {sach}  🧹 **Entlastungsbetrag:** {entlast}")
     st.info(hinweis)
 
+    # Landespflegegeld Bayern
+    st.markdown("""
+---
+
+### 🔷 Landespflegegeld Bayern (zusätzlich zum Pflegegeld)
+Pflegebedürftige Personen mit **mindestens Pflegegrad 2** und **Hauptwohnsitz in Bayern** können zusätzlich zum Pflegegeld das **Landespflegegeld** beantragen.
+
+💶 **1.000 € jährlich** (einmal pro Kalenderjahr)  
+📬 Antragstellung über das **Landesamt für Pflege in Amberg**
+
+🔗 [Weitere Informationen & Antragsformulare](https://www.lfp.bayern.de/landespflegegeld/) *(abgerufen: 01. Juli 2025)*
+""")
+
     st.markdown("---")
     st.subheader("📌 Erläuterung der Leistungen")
     st.markdown("""
@@ -93,16 +106,17 @@ Pflegegeld wird gemäß §37 SGB XI an die pflegebedürftige Person ausgezahlt �
 - *Stationär:* Sachleistungen nach §43 SGB XI in einer Einrichtung. Eigenanteil nach §43c SGB XI fällt zusätzlich an.
 
 **Entlastungsbetrag (§45b SGB XI):**  
-Zusätzlich 131 €/Monat für anerkannte Unterstützungsleistungen (z. B. Haushaltshilfe, Betreuungsangebote). 
+Zusätzlich 131 €/Monat für anerkannte Unterstützungsleistungen (z. B. Haushaltshilfe, Betreuungsangebote).  
 ❗ **Wichtig:** Der Entlastungsbetrag ist **ausschließlich bei häuslicher Versorgung** vorgesehen – bei vollstationärer Pflege entfällt der Anspruch.  
-📅 *Der genannte Betrag in Höhe von 131 € gilt laut Pflegeunterstützungs- und -entlastungsgesetz (PUEG) ab Mai 2025.*
-🚫Keine Barauszahlung möglich.
+📅 *Der genannte Betrag in Höhe von 131 € gilt laut Pflegeunterstützungs- und -entlastungsgesetz (PUEG) ab Mai 2025.*  
+🚫 Keine Barauszahlung möglich.
 
 **Unterscheidung der Leistungsarten (§36–38 SGB XI):**  
 - **Pflegesachleistung (§36):** Professionelle Pflegefachpersonen erbringen die Pflegeleistungen zu Hause. Die Pflegekasse bezahlt die Pflegeeinrichtung oder den ambulanten Pflegedienst direkt.  
-- **Pflegegeld (§37):** Geldleistung an die pflegebedürftige Person zur Organisation der Pflege, z. B. durch An- und Zugehörige oder private Pflegepersonen.  
+- **Pflegegeld (§37):** Geldleistung an die pflegebedürftige Person zur Organisation der Pflege, z. B. durch An- und Zugehörige oder private Pflegepersonen.  
 - **Kombinationsleistung (§38):** Kombination aus Pflegegeld und Sachleistung, wenn die Pflege teilweise selbst organisiert und teilweise durch professionelle Pflege erbracht wird.
 """)
+
 
 elif themenwahl == "Antragstellung & Zugang":
     st.header("📬 Antragstellung & Zugang zu Leistungen")
