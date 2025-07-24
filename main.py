@@ -73,7 +73,9 @@ elif themenwahl == "Leistungen nach Pflegegrad":
 
     auswahl = st.selectbox("Pflegegrad auswählen:", list(daten.keys()), index=0)
 
-    st.caption("📅 Stand: Mai 2025 – gemäß Pflegeunterstützungs- und -entlastungsgesetz (PUEG)")
+    st.caption("📅 Stand: Mai 2025 – Beträge gemäß Pflegeunterstützungs- und -entlastungsgesetz (PUEG)")
+
+    st.warning("🔎 Hinweis: Die hier aufgeführten Beträge basieren auf dem aktuellen Gesetzesstand laut Pflegeunterstützungs- und -entlastungsgesetz (PUEG). Die konsolidierten Gesetzestexte im Internet (z. B. SGB XI) können zum Abrufzeitpunkt noch ältere Beträge enthalten.")
 
     geld, sach, entlast, hinweis = daten[auswahl]
     st.success(f"Leistungsübersicht für Pflegegrad {auswahl}")
