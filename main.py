@@ -6,7 +6,8 @@ st.title("🧭 Pflege-FAQ – Orientierung rund um die Pflegeberatung")
 st.markdown("""**Ein interaktives Informations- und Beratungswerkzeug auf Grundlage des §7a SGB XI und der Pflegeberatung in Bayern für Betroffene, An- und Zugehörige sowie Interessierte.**
 
 🧠 *Studentisches Projekt im Rahmen des berufsbegleitenden Studiengangs B.Sc. Pflegewissenschaft an der Katholischen Universität Eichstätt-Ingolstadt*  
-🔎 *Modul: Zertifikat zur Pflegeberatung nach §7a SGB XI*
+🔎 *Modul: Zertifikat zur Pflegeberatung nach §7a SGB XI*  
+
 👤 *Erstellt von: Jennifer Zimmermann & Christina Papacek-Zimmermann im Sommersemester 2025*
 """)
 
