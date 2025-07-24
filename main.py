@@ -178,19 +178,25 @@ elif themenwahl == "Literatur & Quellen":
 
     st.markdown("""
 ### Gesetzestexte (Gesetze im Internet)
-- Sozialgesetzbuch XI: [SGB XI – Soziale Pflegeversicherung](https://www.gesetze-im-internet.de/sgb_11/) (abgerufen:01/Juli/2025)
-- Sozialgesetzbuch IX: [SGB IX – Rehabilitation und Teilhabe](https://www.gesetze-im-internet.de/sgb_9/) (abgerufen:01/Juli/2025)
-- Sozialgesetzbuch I / SGG: [SGB I](https://www.gesetze-im-internet.de/sgb_1/), [SGG](https://www.gesetze-im-internet.de/sgg/) (abgerufen:01/Juli/2025)
+- **Sozialgesetzbücher I, IX, XI**  
+  [www.gesetze-im-internet.de](https://www.gesetze-im-internet.de)  
+  *(Suchbegriffe: „SGB I“, „SGB IX“, „SGB XI“ – jeweils aktuelle Version abrufbar)*  
+- **Pflegeberufegesetz (PflBG)**  
+  [PflBG – Gesetz über die Pflegeberufe](https://www.gesetze-im-internet.de/pflbg/) *(Stand: 01. Juli 2025)*
 
-### Bundesministerien & offizielle Informationen
-- Bundesgesundheitsministerium: [www.bundesgesundheitsministerium.de](https://www.bundesgesundheitsministerium.de) (abgerufen:01/Juli/2025)
-- Infos zur Verhinderungspflege (BMG): [Verhinderungspflege](https://www.bundesgesundheitsministerium.de/verhinderungspflege.html)(abgerufen:01/Juli/2025) 
-- Pflegewegweiser Bayern: [pflegewegweiser-bayern.de](https://www.pflegewegweiser-bayern.de) (abgerufen:01/Juli/2025)
-- Verbraucherzentrale zur Pflege: [www.verbraucherzentrale.de](https://www.verbraucherzentrale.de) (abgerufen:01/Juli/2025)
-
-### Weiterführende Empfehlungen
-- [Pflegeberatung nach §7a SGB XI – GKV Spitzenverband](https://www.gkv-spitzenverband.de)
-- [Pflegelotse der Pflegekassen](https://www.pflegelotse.de)
+### Bundesministerien & Institutionen
+- [Bundesministerium für Gesundheit (BMG)](https://www.bundesgesundheitsministerium.de)  
+- [Verhinderungspflege – BMG](https://www.bundesgesundheitsministerium.de/verhinderungspflege.html)  
+- [GKV-Spitzenverband: Pflegeberatung nach §7a SGB XI](https://www.gkv-spitzenverband.de)  
+- [Pflegelotse der Pflegekassen](https://www.pflegelotse.de)  
 - [Wege zur Pflege (BMFSFJ)](https://www.wege-zur-pflege.de)
-""")
 
+### Weiterführende Fachliteratur
+- **Beyer, T.** (2025). *Recht für die Soziale Arbeit* (4., aktualisierte Auflage). Nomos.  
+- **Mazur, S.** (2024). *Betreuungsrecht* (19. Auflage, Stand: 1.3.2024). dtv / C.H. Beck.  
+- **Nomos Verlagsgesellschaft** (2024). *Gesetze für die Soziale Arbeit* (14. Auflage, Stand: 24.07.2024). Nomos.
+
+---
+
+ℹ️ *Alle externen Links führen zu offiziellen, frei zugänglichen Informationsportalen. Es besteht keine kommerzielle Absicht.*
+    """)
