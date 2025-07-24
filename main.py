@@ -138,16 +138,22 @@ Vor der Gewährung von Leistungen aus der Pflegeversicherung ist zu prüfen, ob 
 elif themenwahl == "Ansprechpartner & Zuständigkeit":
     st.header("📞 Ansprechpartner & regionale Zuständigkeit (Bayern)")
     st.markdown("""
-- **Pflegekasse:**  
-Erste Anlaufstelle für Anträge, Beratung und Koordination.
-- **Pflegestützpunkte:**  
-Bieten neutrale, trägerübergreifende Beratung – regional verfügbar.
-- **Bezirke in Bayern (§3 AVSG, §27b SGB XII):**  
-Zuständig für Leistungen der Eingliederungshilfe und stationären Hilfe zur Pflege – vorausgesetzt, der Aufenthalt im Bezirk besteht seit mindestens zwei Monaten.
-- **Sozialamt:**  
-Zuständig für ambulante Hilfe zur Pflege (z. B. Haushaltshilfe) bei geringem Einkommen.
-- **Wichtig:** Maßgeblich ist der tatsächliche Aufenthaltsort, nicht der Wohnsitz.
+**Pflegekasse**  
+Erste Anlaufstelle für Anträge, Beratung und Koordination rund um die Pflegeversicherung. Dort erfolgt auch die Antragstellung für Pflegegrade und Leistungen nach dem SGB XI.
+
+**Pflegestützpunkte**  
+Bieten neutrale, trägerübergreifende Beratung für Pflegebedürftige und Angehörige – auch zu regionalen Unterstützungsangeboten. In Bayern sind sie in vielen Landkreisen verfügbar.
+
+**Bezirke in Bayern (§3 AVSG, §27b SGB XII)**  
+Zuständig für Leistungen der Eingliederungshilfe sowie stationäre Hilfe zur Pflege. Voraussetzung: Der tatsächliche Aufenthalt im Bezirk besteht seit mindestens zwei Monaten.
+
+**Sozialamt**  
+Verantwortlich für ambulante Hilfe zur Pflege (z. B. Haushaltshilfen), wenn Einkommen und Vermögen der pflegebedürftigen Person nicht ausreichen. Auch Ansprechpartner für ergänzende Sozialleistungen.
+
+**Wichtig**  
+Maßgeblich für die Zuständigkeit ist der tatsächliche Aufenthaltsort der pflegebedürftigen Person – nicht der formale Wohnsitz.
     """)
+
 
 elif themenwahl == "Entlastung für An- und Zugehörige":
     st.header("🤝 Entlastung & Unterstützung für An- und Zugehörige")
