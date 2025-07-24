@@ -55,8 +55,8 @@ Zugehörige sind nahestehende Personen ohne verwandtschaftliches Verhältnis, z.
 Bei bestimmten Leistungen – wie Verhinderungspflege oder Pflegezeit – ist der Verwandtschaftsgrad oder das Zusammenleben in häuslicher Gemeinschaft entscheidend (§39 SGB XI, PflegeZG).  
 Nicht alle Leistungen können von Zugehörigen geltend gemacht oder abgerechnet werden, selbst wenn sie aktiv in die Pflege eingebunden sind.
 
-🛑 **Wichtig:** In rechtlichen Fragen – etwa bei der Verhinderungspflege oder der Pflegezeit – ist **maßgeblich**, ob ein **Verwandtschaftsverhältnis**, eine **häusliche Gemeinschaft** oder eine **erwerbsmäßige Pflege** vorliegt.  
-Diese Kriterien entscheiden über **Höhe und Anspruch auf Leistungen** (vgl. §39 Abs. 2–3 SGB XI).
+🛑 **Wichtig:** 
+In rechtlichen Fragen – etwa bei der Verhinderungspflege oder der Pflegezeit – ist **maßgeblich**, ob ein **Verwandtschaftsverhältnis**, eine **häusliche Gemeinschaft** oder eine **erwerbsmäßige Pflege** vorliegt. Diese Kriterien entscheiden über **Höhe und Anspruch auf Leistungen** (vgl. §39 Abs. 2–3 SGB XI).
 """)
 
 # --- Themenbereich 2 ---
