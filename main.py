@@ -222,23 +222,43 @@ Zweck dieser Leistungen ist die **Ermöglichung häuslicher Pflege** sowie die *
 
 elif themenwahl == "Teilhabe & Reha":
     st.header("🧩 Teilhabe am Leben in der Gesellschaft")
+
     st.markdown("""
-- **Ziel:** Selbstbestimmte Teilhabe trotz Pflegebedürftigkeit (SGB XI) oder Behinderung (SGB IX).
-            Dabei fördert die Pflegeversicherung gemäß §5 SGB XI (seit PSG II) gezielt auch Leistungen zur sozialen Teilhabe und Unterstützung im Alltag, um Pflegebedürftigen ein möglichst selbstbestimmtes Leben zu ermöglichen. 
-- **Rehabilitation vor Pflege (§31 SGB XI):** Vorrang der Reha-Maßnahmen prüfen.
-- **Eingliederungshilfe (§99 SGB IX):** Leistungen für Menschen mit (drohender) Behinderung – zuständig: Bezirke in Bayern.
-- **Teilhabeplan (§19 SGB IX):** Trägerübergreifende Koordination bei komplexem Hilfebedarf.
+**Ziel der Teilhabeleistungen:**  
+Pflegebedürftige Menschen und Menschen mit Behinderung sollen möglichst selbstbestimmt leben können – trotz Einschränkungen.  
+Die Pflegeversicherung (§5 SGB XI) und die Eingliederungshilfe (SGB IX) unterstützen dabei mit alltagspraktischen und sozialen Hilfen. Besonders gefördert werden Angebote zur Teilhabe am sozialen Leben, wie z. B. Alltagsbegleitung oder Freizeitangebote.
+
+**Rehabilitation vor Pflege (§31 SGB XI):**  
+Bevor Leistungen aus der Pflegeversicherung bewilligt werden, ist zu prüfen, ob medizinische oder berufliche Reha-Maßnahmen vorrangig sind. Ziel ist die Wiederherstellung der Selbstständigkeit. Reha-Anträge können von der Pflegekasse angestoßen werden.
+
+**Eingliederungshilfe (§99 SGB IX):**  
+Für Menschen mit (drohender) Behinderung stellt die Eingliederungshilfe Leistungen zur Teilhabe bereit. Zuständig sind in Bayern in der Regel die **Bezirke**. Leistungen umfassen z. B. Assistenzdienste, Mobilitätshilfen oder Unterstützungsangebote in Schule und Arbeit.
+
+**Teilhabeplan (§19 SGB IX):**  
+Bei komplexem Hilfebedarf und mehreren beteiligten Leistungsträgern wird ein **Teilhabeplanverfahren** eingeleitet. Es koordiniert die Leistungen trägerübergreifend, stellt den Bedarf fest und sichert eine abgestimmte Hilfeplanung.
     """)
+
 
 elif themenwahl == "Widerspruch & Klagewege":
     st.header("⚖️ Widerspruch & rechtliche Durchsetzung")
+
     st.markdown("""
-- **Widerspruch (§84 SGG):** Innerhalb von einem Monat schriftlich gegen einen ablehnenden Bescheid einlegen.
-- **Verpflichtungsklage (§54 SGG):** Wenn eine beantragte Leistung abgelehnt wird.
-- **Untätigkeitsklage (§88 SGG):** Wenn keine Entscheidung innerhalb von 3 Monaten erfolgt.
-- **Anfechtungsklage:** Gegen belastende Verwaltungsakte ohne Leistungsbezug.
-- **Vorläufige Leistungen (§39 SGB I):** Beantragbar, wenn z. B. ein zu niedriger Pflegegrad gewährt wurde, aber Widerspruch läuft.
+**Widerspruch (§84 SGG):**  
+Gegen einen ablehnenden oder fehlerhaften Bescheid kann innerhalb eines Monats schriftlich Widerspruch eingelegt werden. Der Widerspruch bewirkt eine erneute Prüfung durch die Pflegekasse.
+
+**Verpflichtungsklage (§54 SGG):**  
+Wenn eine beantragte Leistung zu Unrecht abgelehnt oder gar nicht bearbeitet wurde, kann Klage vor dem Sozialgericht erhoben werden. Ziel ist die gerichtliche Durchsetzung der beantragten Leistung.
+
+**Untätigkeitsklage (§88 SGG):**  
+Erfolgt innerhalb von drei Monaten keine Entscheidung über den Antrag oder Widerspruch, kann beim Sozialgericht Untätigkeitsklage erhoben werden.
+
+**Anfechtungsklage (§54 SGG):**  
+Gegen belastende Verwaltungsakte – z. B. Rückforderungen oder Kürzungen – kann Anfechtungsklage erhoben werden, um die Entscheidung aufheben zu lassen.
+
+**Vorläufige Leistungen (§39 SGB I):**  
+Während eines laufenden Widerspruchs- oder Klageverfahrens kann die Pflegekasse auf Antrag vorläufige Leistungen gewähren – z. B. wenn ein zu niedriger Pflegegrad festgestellt wurde, aber ein höherer beantragt ist.
     """)
+
 
 elif themenwahl == "Literatur & Quellen":
     st.header("Literatur & Quellen")
