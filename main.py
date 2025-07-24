@@ -55,7 +55,7 @@ Zugehörige sind nahestehende Personen ohne verwandtschaftliches Verhältnis, z.
 Bei bestimmten Leistungen – wie Verhinderungspflege oder Pflegezeit – ist der Verwandtschaftsgrad oder das Zusammenleben in häuslicher Gemeinschaft entscheidend (§39 SGB XI, PflegeZG).  
 Nicht alle Leistungen können von Zugehörigen geltend gemacht oder abgerechnet werden, selbst wenn sie aktiv in die Pflege eingebunden sind.
 
-🛑 **Wichtig:** 
+🛑 **Wichtig:**  
 In rechtlichen Fragen – etwa bei der Verhinderungspflege oder der Pflegezeit – ist **maßgeblich**, ob ein **Verwandtschaftsverhältnis**, eine **häusliche Gemeinschaft** oder eine **erwerbsmäßige Pflege** vorliegt. Diese Kriterien entscheiden über **Höhe und Anspruch auf Leistungen** (vgl. §39 Abs. 2–3 SGB XI).
 """)
 
@@ -85,7 +85,7 @@ elif themenwahl == "Leistungen nach Pflegegrad":
     st.markdown("---")
     st.subheader("📌 Erläuterung der Leistungen")
     st.markdown("""
-**Wer erhält die Leistungen?** 
+**Wer erhält die Leistungen?**  
 Pflegegeld wird gemäß §37 SGB XI an die pflegebedürftige Person ausgezahlt – nicht direkt an pflegende An- und Zugehörige. Es ist zweckgebunden für die häusliche Versorgung.
 
 **Ambulant vs. stationär:** 
