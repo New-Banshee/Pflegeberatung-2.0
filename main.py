@@ -261,7 +261,7 @@ Während eines laufenden Widerspruchs- oder Klageverfahrens kann die Pflegekasse
 
 
 elif themenwahl == "Literatur & Quellen":
-    st.header("Literatur & Quellen")
+    st.header("📚 Literatur & Quellen")
 
     st.markdown("""
 ### Gesetzestexte (Gesetze im Internet)
@@ -276,8 +276,12 @@ elif themenwahl == "Literatur & Quellen":
 - [Verhinderungspflege – BMG](https://www.bundesgesundheitsministerium.de/verhinderungspflege.html)  
 - [GKV-Spitzenverband: Pflegeberatung nach §7a SGB XI](https://www.gkv-spitzenverband.de)  
 - [Pflegelotse der Pflegekassen](https://www.pflegelotse.de)  
-- [Wege zur Pflege (BMFSFJ)](https://www.wege-zur-pflege.de)
+- [Wege zur Pflege (BMFSFJ)](https://www.wege-zur-pflege.de)  
 - [Pflegeleistungen ab 2025 – Merkblatt für Beihilfeberechtigte (BVA)](https://www.bva.bund.de/SharedDocs/Downloads/DE/Bundesbedienstete/Gesundheit-Vorsorge/Beihilfe/Merkblaetter/Pflegeleistungen_ab_2025.pdf?__blob=publicationFile&v=1) *(Stand: Juli 2025)*
+
+### Landesspezifische Informationen (Bayern)
+- [Landespflegegeld Bayern – Bayerisches Landesamt für Pflege (LfP)](https://www.lfp.bayern.de/landespflegegeld/) *(abgerufen: 01. Juli 2025)*  
+- [Sozialhilfe & Pflege in Bayern – StMAS Bayern](https://www.stmas.bayern.de/sozialhilfe/grundsaetze/index.php)
 
 ### Weiterführende Fachliteratur
 - **Beyer, T.** (2025). *Recht für die Soziale Arbeit* (4., aktualisierte Auflage). Nomos.  
