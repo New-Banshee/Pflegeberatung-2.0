@@ -160,17 +160,31 @@ Maßgeblich für die Zuständigkeit ist der tatsächliche Aufenthaltsort der pfl
 
 elif themenwahl == "Entlastung für An- und Zugehörige":
     st.header("🤝 Entlastung & Unterstützung für An- und Zugehörige")
+
     st.markdown("""
-  **Pflegekurse (§45 SGB XI):** Kostenlose Schulungen für pflegende Angehörige und ehrenamtlich Pflegende.
-- **Verhinderungspflege (§39 SGB XI):**  
-    - Bis 30.06.2025: Bis zu 1.612 €/Jahr (plus max. 843 € aus Kurzzeitpflege umwidmungsfähig → max. 2.528 €).  
-    - Ab 01.07.2025: Einführung eines **gemeinsamen Jahresbetrags** für Verhinderungs- und Kurzzeitpflege: **bis zu 3.539 €/Jahr**.  
-      Die sechsmalige Vorpflegezeit entfällt. Anspruch ab Pflegegrad 2.
-- **Kurzzeitpflege (§42 SGB XI):** Vorübergehende stationäre Pflege – bis zu 1.774 €/Jahr.
-- **Pflegezeit & Familienpflegezeit (PflegeZG):** Freistellungsmöglichkeiten für berufstätige Angehörige zur Pflege naher Verwandter.
-- **Entlastungsbetrag (§45b SGB XI):** 131 €/Monat – ausschließlich bei häuslicher Pflege nutzbar (nicht bei stationärer Pflege!). Keine Barauszahlung möglich.
+**Pflegekurse (§45 SGB XI):**  
+Kostenlose Schulungen für pflegende Angehörige und ehrenamtlich Pflegende – vor Ort oder digital.
+
+**Verhinderungs- & Kurzzeitpflege (§39, §42 SGB XI):**  
+Ab dem 1. Juli 2025 gilt ein **gemeinsames Jahresbudget** für beide Leistungen:
+- **Bis zu 3.539 € pro Kalenderjahr** (Pflegegrad 2–5)
+- **Maximal 8 Wochen Ersatzpflege**
+- **Pflegegeld wird währenddessen für bis zu 8 Wochen zur Hälfte weitergezahlt**
+- **Keine sechsmalige Vorpflegezeit mehr erforderlich**
+- Vorher genutzte Beträge aus dem ersten Halbjahr 2025 werden angerechnet
+
+**Pflegezeit & Familienpflegezeit (PflegeZG):**  
+Gesetzlich geregelte Möglichkeiten der Freistellung für berufstätige Angehörige zur Pflege naher Verwandter (z. B. Elternzeitähnlich oder stufenweise).
+
+**Entlastungsbetrag (§45b SGB XI):**  
+- Monatlich 131 € zusätzlich für anerkannte Angebote im Alltag  
+- **Nur bei häuslicher Pflege nutzbar**, nicht bei vollstationärer Versorgung  
+- Keine Barauszahlung möglich  
+- Zweckgebunden z. B. für Alltagsbegleitung, Haushaltshilfen oder anerkannte Dienstleister
+
+📅 *Stand: Juli 2025 – gemäß Pflegeunterstützungs- und -entlastungsgesetz (PUEG)*  
+🔗 [Quelle: Bundesgesundheitsministerium – Änderungen ab Juli 2025](https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/das-aendert-sich-zum-1-juli-in-der-pflege.html)
     """)
-    st.caption("📅 Stand: Juli 2025")
 
 
 elif themenwahl == "Rechtliche Betreuung":
