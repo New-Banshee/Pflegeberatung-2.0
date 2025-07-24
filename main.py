@@ -112,9 +112,9 @@ Zusätzlich 131 €/Monat für anerkannte Unterstützungsleistungen (z. B. Hau
 🚫 Keine Barauszahlung möglich.
 
 **Unterscheidung der Leistungsarten (§36–38 SGB XI):** 
-- Pflegesachleistung (§36): Professionelle Pflegefachpersonen erbringen die Pflegeleistungen zu Hause. Die Pflegekasse bezahlt die Pflegeeinrichtung oder den ambulanten Pflegedienst direkt.  
-- Pflegegeld (§37): Geldleistung an die pflegebedürftige Person zur Organisation der Pflege, z. B. durch An- und Zugehörige oder private Pflegepersonen.  
-- Kombinationsleistung (§38): Kombination aus Pflegegeld und Sachleistung, wenn die Pflege teilweise selbst organisiert und teilweise durch professionelle Pflege erbracht wird.
+Pflegesachleistung (§36): Professionelle Pflegefachpersonen erbringen die Pflegeleistungen zu Hause. Die Pflegekasse bezahlt die Pflegeeinrichtung oder den ambulanten Pflegedienst direkt.  
+Pflegegeld (§37): Geldleistung an die pflegebedürftige Person zur Organisation der Pflege, z. B. durch An- und Zugehörige oder private Pflegepersonen.  
+Kombinationsleistung (§38): Kombination aus Pflegegeld und Sachleistung, wenn die Pflege teilweise selbst organisiert und teilweise durch professionelle Pflege erbracht wird.
 """)
 
 
