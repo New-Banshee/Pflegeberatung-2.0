@@ -1,7 +1,7 @@
 import streamlit as st
 
-st.set_page_config(page_title="PflegeStart 2.0", layout="wide")
-st.title("🧭 PflegeStart 2.0 – Digitaler Begleiter rund um Pflegeberatung")
+st.set_page_config(page_title="Pflege-FAQ", layout="wide")
+st.title("🧭 Pflege-FAQ – Orientierung rund um die Pflegeberatung")
 
 st.markdown("""**Ein interaktives Informations- und Beratungswerkzeug auf Grundlage des §7a SGB XI und der Pflegeberatung in Bayern für Betroffene, An- und Zugehörige und Interessierte.**
 
@@ -83,7 +83,10 @@ Pflegegeld wird gemäß §37 SGB XI an die pflegebedürftige Person ausgezahlt �
 - *Stationär:* Sachleistungen nach §43 SGB XI in einer Einrichtung. Eigenanteil nach §43c SGB XI fällt zusätzlich an.
 
 **Entlastungsbetrag (§45b SGB XI):**  
-Zusätzlich 131 €/Monat für anerkannte Unterstützungsleistungen (z. B. Haushaltshilfe, Betreuungsangebote). Keine Barauszahlung möglich.
+Zusätzlich 131 €/Monat für anerkannte Unterstützungsleistungen (z. B. Haushaltshilfe, Betreuungsangebote). 
+❗ **Wichtig:** Der Entlastungsbetrag ist **ausschließlich bei häuslicher Versorgung** vorgesehen – bei vollstationärer Pflege entfällt der Anspruch.  
+📅 *Der genannte Betrag in Höhe von 131 € gilt laut Pflegeunterstützungs- und -entlastungsgesetz (PUEG) ab Mai 2025.*
+🚫Keine Barauszahlung möglich.
 
 **Unterscheidung der Leistungsarten (§36–38 SGB XI):**  
 - **Pflegesachleistung (§36):** Professionelle Pflegefachpersonen erbringen die Pflegeleistungen zu Hause. Die Pflegekasse bezahlt die Pflegeeinrichtung oder den ambulanten Pflegedienst direkt.  
@@ -113,12 +116,17 @@ elif themenwahl == "Ansprechpartner & Zuständigkeit":
 elif themenwahl == "Entlastung für An- und Zugehörige":
     st.header("🤝 Entlastung & Unterstützung für An- und Zugehörige")
     st.markdown("""
-- **Pflegekurse (§45 SGB XI):** Kostenlose Schulungen für pflegende Angehörige (vor Ort oder online).
-- **Verhinderungspflege (§39 SGB XI):** Bis zu 1.612 €/Jahr, wenn die Hauptpflegeperson z. B. wegen Krankheit verhindert ist.
+  **Pflegekurse (§45 SGB XI):** Kostenlose Schulungen für pflegende Angehörige und ehrenamtlich Pflegende.
+- **Verhinderungspflege (§39 SGB XI):**  
+    - Bis 30.06.2025: Bis zu 1.612 €/Jahr (plus max. 843 € aus Kurzzeitpflege umwidmungsfähig → max. 2.528 €).  
+    - Ab 01.07.2025: Einführung eines **gemeinsamen Jahresbetrags** für Verhinderungs- und Kurzzeitpflege: **bis zu 3.539 €/Jahr**.  
+      Die sechsmalige Vorpflegezeit entfällt. Anspruch ab Pflegegrad 2.
 - **Kurzzeitpflege (§42 SGB XI):** Vorübergehende stationäre Pflege – bis zu 1.774 €/Jahr.
-- **Pflegezeit & Familienpflegezeit (PflegeZG):** Gesetzlich geregelte Freistellungsmöglichkeiten für berufstätige Angehörige.
-- **Entlastungsbetrag:** 131 €/Monat – zweckgebunden z. B. für Alltagsbegleitung oder Haushaltshilfe.
+- **Pflegezeit & Familienpflegezeit (PflegeZG):** Freistellungsmöglichkeiten für berufstätige Angehörige zur Pflege naher Verwandter.
+- **Entlastungsbetrag (§45b SGB XI):** 131 €/Monat – ausschließlich bei häuslicher Pflege nutzbar (nicht bei stationärer Pflege!). Keine Barauszahlung möglich.
     """)
+    st.caption("📅 Stand: Juli 2025")
+
 
 elif themenwahl == "Rechtliche Betreuung":
     st.header("👤 Rechtliche Betreuung & Einwilligung")
@@ -156,4 +164,25 @@ elif themenwahl == "Widerspruch & Klagewege":
 - **Anfechtungsklage:** Gegen belastende Verwaltungsakte ohne Leistungsbezug.
 - **Vorläufige Leistungen (§39 SGB I):** Beantragbar, wenn z. B. ein zu niedriger Pflegegrad gewährt wurde, aber Widerspruch läuft.
     """)
+
+elif themenwahl == "📚 Literatur & Quellen":
+    st.header("📚 Literatur & Quellen")
+
+    st.markdown("""
+### Gesetzestexte (Gesetze im Internet)
+- Sozialgesetzbuch XI: [SGB XI – Soziale Pflegeversicherung](https://www.gesetze-im-internet.de/sgb_11/) (abgerufen:01/Juli/2025)
+- Sozialgesetzbuch IX: [SGB IX – Rehabilitation und Teilhabe](https://www.gesetze-im-internet.de/sgb_9/) (abgerufen:01/Juli/2025)
+- Sozialgesetzbuch I / SGG: [SGB I](https://www.gesetze-im-internet.de/sgb_1/), [SGG](https://www.gesetze-im-internet.de/sgg/) (abgerufen:01/Juli/2025)
+
+### Bundesministerien & offizielle Informationen
+- Bundesgesundheitsministerium: [www.bundesgesundheitsministerium.de](https://www.bundesgesundheitsministerium.de) (abgerufen:01/Juli/2025)
+- Infos zur Verhinderungspflege (BMG): [Verhinderungspflege](https://www.bundesgesundheitsministerium.de/verhinderungspflege.html)(abgerufen:01/Juli/2025) 
+- Pflegewegweiser Bayern: [pflegewegweiser-bayern.de](https://www.pflegewegweiser-bayern.de) (abgerufen:01/Juli/2025)
+- Verbraucherzentrale zur Pflege: [www.verbraucherzentrale.de](https://www.verbraucherzentrale.de) (abgerufen:01/Juli/2025)
+
+### Weiterführende Empfehlungen
+- [Pflegeberatung nach §7a SGB XI – GKV Spitzenverband](https://www.gkv-spitzenverband.de)
+- [Pflegelotse der Pflegekassen](https://www.pflegelotse.de)
+- [Wege zur Pflege (BMFSFJ)](https://www.wege-zur-pflege.de)
+""")
 
