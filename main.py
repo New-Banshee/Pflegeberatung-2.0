@@ -189,12 +189,21 @@ Gesetzlich geregelte Möglichkeiten der Freistellung für berufstätige Angehör
 
 elif themenwahl == "Rechtliche Betreuung":
     st.header("👤 Rechtliche Betreuung & Einwilligung")
+
     st.markdown("""
-- **§1814 BGB:** Eine rechtliche Betreuung kann durch das Amtsgericht angeordnet werden, wenn eine Person ihre Angelegenheiten nicht mehr selbst regeln kann.
-- **§1825 BGB:** Einwilligungsvorbehalt möglich, z. B. bei finanzieller Gefährdung.
-- **Pflegeberatung & Leistungsanträge**: erfordern dann die Zustimmung des Betreuers (§7a SGB XI).
-- **Alternative:** Vorsorgevollmacht – sollte frühzeitig geregelt sein.
+**Anordnung einer rechtlichen Betreuung (§1814 BGB):**  
+Eine Betreuung wird vom Amtsgericht angeordnet, wenn eine volljährige Person aufgrund von Krankheit oder Behinderung ihre Angelegenheiten ganz oder teilweise nicht mehr selbst regeln kann. Die Betreuung erfolgt in den konkret erforderlichen Aufgabenkreisen.
+
+**Einwilligungsvorbehalt (§1825 BGB):**  
+Wenn zur Abwendung erheblicher Gefahren für die betreute Person notwendig, kann das Gericht zusätzlich einen Einwilligungsvorbehalt anordnen – z. B. bei finanzieller Selbstgefährdung. Rechtsgeschäfte bedürfen dann der Zustimmung des Betreuers.
+
+**Pflegeberatung & Leistungsanträge (§7a SGB XI):**  
+Ist eine rechtliche Betreuung eingerichtet, benötigt es für Anträge auf Pflegeleistungen, Beratung oder Wohnraumanpassung ggf. die Zustimmung oder Mitwirkung des rechtlichen Betreuers.
+
+**Alternative: Vorsorgevollmacht:**  
+Durch eine rechtzeitig erteilte Vorsorgevollmacht können selbstbestimmt Vertrauenspersonen benannt werden, um im Bedarfsfall rechtswirksam zu handeln – ohne gerichtliche Betreuung.
     """)
+
 
 elif themenwahl == "Wohnraumanpassung & Hilfsmittel":
     st.header("🏠 Wohnraumanpassung & Hilfsmittel")
