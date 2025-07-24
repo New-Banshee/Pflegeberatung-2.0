@@ -44,6 +44,9 @@ Die Prüfung mündet in einem Gutachten für die Pflegekasse (§18, SGB XI).
 **Pflegefachpersonen:**  
 Examinierte Fachpersonen mit dreijähriger Ausbildung und Staatsexamen. Dazu gehören z. B. Pflegefachfrau/-mann, Gesundheits- und Krankenpflegerin/-pfleger oder Altenpflegerin/-pfleger (PflBG §1).
 
+**Pflegekasse vs. Krankenkasse:**  
+Pflegekassen sind eigenständige Träger der Pflegeversicherung, organisiert unter dem Dach der Krankenkassen (§46 SGB XI).
+
 **Angehörige & Zugehörige:**  
 Angehörige im rechtlichen Sinne sind zumeist Familienmitglieder – etwa Eltern, Kinder, Geschwister oder Ehepartner. Auch angeheiratete Verwandte wie Schwiegertöchter oder -söhne zählen dazu.  
 Zugehörige sind nahestehende Personen ohne verwandtschaftliches Verhältnis, z. B. enge Freunde oder Lebensgefährtinnen und Lebensgefährten.
@@ -57,9 +60,6 @@ Der Begriff "Angehörige" umfasst insbesondere Familienmitglieder und Personen, 
 
 🛑 **Wichtig:** In rechtlichen Fragen – etwa bei der Verhinderungspflege oder der Pflegezeit – ist **maßgeblich**, ob ein **Verwandtschaftsverhältnis**, eine **häusliche Gemeinschaft** oder eine **erwerbsmäßige Pflege** vorliegt.  
 Diese Kriterien entscheiden über **Höhe und Anspruch auf Leistungen** (vgl. §39 Abs. 2–3 SGB XI).
-
-**Pflegekasse vs. Krankenkasse:**  
-Pflegekassen sind eigenständige Träger der Pflegeversicherung, organisiert unter dem Dach der Krankenkassen (§46 SGB XI).
 """)
 
 # --- Themenbereich 2 ---
