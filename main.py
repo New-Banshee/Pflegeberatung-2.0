@@ -125,7 +125,7 @@ elif themenwahl == "Antragstellung & Zugang":
 Der Antrag erfolgt formlos bei der Pflegekasse (z. B. telefonisch oder schriftlich). Leistungen werden frühestens ab dem Antragsdatum gewährt.
 
 **Begutachtung:**  
-Ein Gutachter des Medizinischen Dienstes (gesetzlich Versicherte) oder von Medicproof (Privatversicherte) prüft die Selbstständigkeit im häuslichen Umfeld anhand gesetzlicher Kriterien.
+Eine Gutachterin oder Gutachter des Medizinischen Dienstes (gesetzlich Versicherte) oder von Medicproof (Privatversicherte) prüft die Selbstständigkeit im häuslichen Umfeld anhand gesetzlicher Kriterien.
 
 **Pflegeberatung (§7a SGB XI):**  
 Die Pflegekasse ist verpflichtet, innerhalb von zwei Wochen nach Antragseingang eine kostenfreie, individuelle Pflegeberatung durch eine geschulte Fachkraft anzubieten.
@@ -207,11 +207,18 @@ Durch eine rechtzeitig erteilte Vorsorgevollmacht können selbstbestimmt Vertrau
 
 elif themenwahl == "Wohnraumanpassung & Hilfsmittel":
     st.header("🏠 Wohnraumanpassung & Hilfsmittel")
+
     st.markdown("""
-- **Wohnumfeldverbessernde Maßnahmen (§40 SGB XI):** Bis zu 4.000 € Zuschuss für Umbaumaßnahmen (z. B. barrierefreies Bad, Treppenlift).
-- **Hilfsmittel:** z. B. Pflegebett, Rollator, Notrufsysteme – ärztliche Verordnung erforderlich, Genehmigung durch Krankenkasse.
-- **Ziel:** Ermöglichung häuslicher Pflege und Sicherung der Selbstständigkeit.
+**Wohnumfeldverbessernde Maßnahmen (§40 SGB XI):**  
+Pflegebedürftige mit anerkanntem Pflegegrad können für Maßnahmen zur Verbesserung des Wohnumfelds einen **Zuschuss von bis zu 4.000 €** beantragen. Dazu zählen z. B. der Einbau eines barrierefreien Bades, eines Treppenlifts oder einer Türverbreiterung. Die Maßnahme muss dazu dienen, die häusliche Pflege zu ermöglichen oder zu erleichtern.
+
+**Hilfsmittel:**  
+Zu den typischen Pflegehilfsmitteln gehören z. B. Pflegebett, Rollator, Toilettenstuhl oder Hausnotrufsysteme. Voraussetzung ist eine **ärztliche Verordnung** und die **Genehmigung durch die Krankenkasse**. Es können ggf. Zuzahlungen anfallen. Unterschieden wird zwischen technischen Hilfsmitteln und zum Verbrauch bestimmten Pflegehilfsmitteln (z. B. Einmalhandschuhe).
+
+**Ziel:**  
+Zweck dieser Leistungen ist die **Ermöglichung häuslicher Pflege** sowie die **Wiederherstellung, Stabilisierung oder Förderung der Selbstständigkeit** der pflegebedürftigen Person.
     """)
+
 
 elif themenwahl == "Teilhabe & Reha":
     st.header("🧩 Teilhabe am Leben in der Gesellschaft")
