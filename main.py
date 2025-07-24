@@ -7,7 +7,7 @@ st.markdown("""**Ein interaktives Informations- und Beratungswerkzeug auf Grundl
 
 🧠 *Studentisches Projekt im Rahmen des berufsbegleitenden Studiengangs B.Sc. Pflegewissenschaft an der Katholischen Universität Eichstätt-Ingolstadt*  
 🔎 *Modul: Zertifikat zur Pflegeberatung nach §7a SGB XI*  
-👤 *Erstellt von: Jennifer Zimmermann B. Sc. & Christina Papacek-Zimmermann B. Sc. im Sommersemester 2025*
+✍️ *Erstellt von: Jennifer Zimmermann B. Sc. & Christina Papacek-Zimmermann B. Sc. im Sommersemester 2025*
 """)
 
 st.warning("🔎 Dieses Tool dient der ersten Orientierung und ersetzt keine individuelle Pflegeberatung nach §7a SGB XI. Für persönliche Beratung wenden Sie sich bitte an Ihre Pflegekasse oder einen Pflegestützpunkt.")
