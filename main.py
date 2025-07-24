@@ -25,7 +25,7 @@ themenwahl = st.radio(
         "Wohnraumanpassung & Hilfsmittel",
         "Teilhabe & Reha",
         "Widerspruch & Klagewege",
-        "📚 Literatur & Quellen"
+        "Literatur & Quellen"
     ]
 )
 
@@ -39,10 +39,10 @@ Der Gesetzgeber sieht Pflegebedürftigkeit als grundsätzlich beeinflussbaren Zu
 
 **Pflegegrad (§15 SGB XI):**  
 Die Einstufung erfolgt durch den Medizinischen Dienst (MD) oder Medicproof nach einem Begutachtungssystem mit sechs Modulen. Es gibt fünf Pflegegrade (1–5), je nach Schwere der Beeinträchtigung.
-Die Prüfung mündet in einem Gutachten für die Pflegekasse (§18, SGB XI).
+Die Prüfung mündet in einem Gutachten für die Pflegekasse (§18 SGB XI).
 
 **Pflegefachpersonen:**  
-Examinierte Fachpersonen mit dreijähriger Ausbildung und Staatsexamen. Dazu gehören z. B. Pflegefachfrau/-mann, Gesundheits- und Krankenpflegerin/-pfleger oder Altenpflegerin/-pfleger (PflBG §1).
+Examinierte Fachpersonen mit dreijähriger Ausbildung und Staatsexamen. Dazu gehören z. B. Pflegefachfrau/-mann, Gesundheits- und Krankenpflegerin/-pfleger oder Altenpflegerin/-pfleger (§1 PflBG).
 
 **Pflegekasse vs. Krankenkasse:**  
 Pflegekassen sind eigenständige Träger der Pflegeversicherung, organisiert unter dem Dach der Krankenkassen (§46 SGB XI).
@@ -54,9 +54,6 @@ Zugehörige sind nahestehende Personen ohne verwandtschaftliches Verhältnis, z.
 ⚠️ **Rechtlich relevant:**  
 Bei bestimmten Leistungen – wie Verhinderungspflege oder Pflegezeit – ist der Verwandtschaftsgrad oder das Zusammenleben in häuslicher Gemeinschaft entscheidend (§39 SGB XI, PflegeZG).  
 Nicht alle Leistungen können von Zugehörigen geltend gemacht oder abgerechnet werden, selbst wenn sie aktiv in die Pflege eingebunden sind.
-**Angehörige & Zugehörige:**  
-Der Begriff "Angehörige" umfasst insbesondere Familienmitglieder und Personen, die mit der pflegebedürftigen Person **bis zum zweiten Grad verwandt oder verschwägert** sind (z. B. Eltern, Kinder, Geschwister, Schwiegerkinder).  
-"Zugehörige" sind nahestehende Personen ohne formale Verwandtschaft – z. B. Freunde, Nachbarinnen oder Lebensgefährten.
 
 🛑 **Wichtig:** In rechtlichen Fragen – etwa bei der Verhinderungspflege oder der Pflegezeit – ist **maßgeblich**, ob ein **Verwandtschaftsverhältnis**, eine **häusliche Gemeinschaft** oder eine **erwerbsmäßige Pflege** vorliegt.  
 Diese Kriterien entscheiden über **Höhe und Anspruch auf Leistungen** (vgl. §39 Abs. 2–3 SGB XI).
