@@ -24,7 +24,8 @@ themenwahl = st.radio(
         "Rechtliche Betreuung",
         "Wohnraumanpassung & Hilfsmittel",
         "Teilhabe & Reha",
-        "Widerspruch & Klagewege"
+        "Widerspruch & Klagewege",
+        "📚 Literatur & Quellen"
     ]
 )
 
