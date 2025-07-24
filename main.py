@@ -190,6 +190,7 @@ elif themenwahl == "Literatur & Quellen":
 - [GKV-Spitzenverband: Pflegeberatung nach §7a SGB XI](https://www.gkv-spitzenverband.de)  
 - [Pflegelotse der Pflegekassen](https://www.pflegelotse.de)  
 - [Wege zur Pflege (BMFSFJ)](https://www.wege-zur-pflege.de)
+- [Pflegeleistungen ab 2025 – Merkblatt für Beihilfeberechtigte (BVA)](https://www.bva.bund.de/SharedDocs/Downloads/DE/Bundesbedienstete/Gesundheit-Vorsorge/Beihilfe/Merkblaetter/Pflegeleistungen_ab_2025.pdf?__blob=publicationFile&v=1) *(Stand: Juli 2025)*
 
 ### Weiterführende Fachliteratur
 - **Beyer, T.** (2025). *Recht für die Soziale Arbeit* (4., aktualisierte Auflage). Nomos.  
